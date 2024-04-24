@@ -2,15 +2,13 @@ let player = {
   name: "Per",
   chips: 200,
 };
-let cards = []; // array - ordered list of items
+let cards = [];
 let sum = 0;
 let hasBlackJack = false;
 let isAlive = false;
 let message = "";
 let messageEl = document.getElementById("message-el");
-//let sumEl = document.getElementById("sum-el");
-let sumEl = document.querySelector("#sum-el"); // use # for id selector
-//let sumEl = document.querySelector(".sum-el") we use dot (.) when using a class selector
+let sumEl = document.querySelector("#sum-el"); 
 let cardsEL = document.getElementById("cards-el");
 
 let playerEl = document.getElementById("player-el");
